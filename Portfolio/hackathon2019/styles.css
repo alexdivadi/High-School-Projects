@@ -1,0 +1,232 @@
+
+/*************Header********/
+.bigheader {
+	padding: 60px;
+	text-align: center;
+	background: #72c9ed;
+	color: white;
+	
+}
+.bigheader h1 {
+	font-size: 30px;
+	font-family:Avenir;
+}
+.smallheader {
+	padding: 20px;
+	text-align: center;
+	background: #72c9ed;
+	color: white;
+	
+}
+.smallheader h1 {
+	font-size: 30px;
+	font-family:Avenir;
+}
+
+/************Main***********/
+.main {
+	background-color: white;
+	padding: 20px;
+}
+.form-main {
+	width:100%;
+	background-color: #72c9ed;
+}
+.form-card {
+	background-color: white;
+	margin: 30px;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+body {
+	margin: 6;
+	font-family: Avenir;
+}
+
+/**********Tables*************/
+table {
+	border-collapse: collapse;
+	width: 100%;
+} 
+th, td {
+	text-align: left;
+	padding: 8px;
+}	
+tr:nth-child(even){background-color: #f2f2f2}
+th {
+	background-color: #74b6b8;
+	color: white;
+}
+
+/****************Forms**************/
+form.f input, select {
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+form.f input[type=submit]:hover {
+	background-color: grey;
+	cursor: pointer;
+}
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 18px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.container input { /*Hide radio buttons*/
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+.container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+	background-color: #74b6b8;
+}
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+.container .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/***********Searchbar************/
+form-card.searchbar input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+form-card.searchbar button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+form-card.searchbar button:hover {
+	background: #0b7dda;
+}
+form-card.searchbar::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/********Other**********/
+* {
+	box-sizing: border-box;
+}
+input[type=number]::-webkit-inner-spin-button {
+	cursor: pointer;
+}
+.wheatbackground {
+	background-image: url("images/4kwheat.png");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.button {
+	background-color: #666;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button1 {
+	background-color: #0B2187;
+	border: none;
+	color: white;
+	width:100%;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+}
+
+.button:hover {
+	background-color: grey;
+}
+.button1:hover {
+	background-color: grey;
+}
+.error {color: #FF0000;}
+/********Lists*********/
+ul{
+	list-style-type:circle;
+	padding: 4px;
+}
+/***********Images**********/
+img{
+	padding:4px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+	
+}
+.responsive {
+ 	padding: 0 6px;
+ 	float: left;
+	width: 24.99999%;
+}
+
+/***********Font**************/
+@font-face{
+	font-family: Avenir;
+	src:url(AvenirLTStd-Medium.otf);
+}
+h4{
+	font-family:Avenir;
+	padding-bottom: 2px;
+	padding-top:2px;
+	font-size:14px;
+}
