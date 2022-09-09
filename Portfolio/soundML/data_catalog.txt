@@ -1,0 +1,28 @@
+bass clarinet: 944        944
+basoon: 720               720
+cello: 889 + 354         1243
+clarinet: 846 + 356      1202
+contrabasoon: 720         720
+cor anglais: 691          691
+double bass: 852 + 340   1192
+flute: 878 + 355         1233
+french horn: 652          652
+guitar: 106 + 345         451
+oboe: 596 + 341           937
+saxophone: 733 + 410     1143
+trombone: 831             831
+trumpet: 485 + 337        822
+tuba: 972                 972
+viola: 974                974
+violin: 1502 + 408       1910
+
+
+ 1 instrument  w/ 1500+ samples
+ 3 instruments w/ 1200+ samples
+ 5 instruments w/ 1000+ samples
+ 9 instruments w/  900+ samples
+11 instruments w/  800+ samples
+13 instruments w/  700+ samples
+15 instruments w/  600+ samples
+16 instruments w/  400+ samples
+
